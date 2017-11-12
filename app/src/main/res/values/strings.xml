@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BeBaLa</string>
+    <string name="title_activity_beranda">Beranda</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registrasi">Registrasi</string>
+    <string name="title_activity_pilihdialek">Pilih Dialek</string>
+    <string name="title_activity_dialeka">Dialek A</string>
+    <string name="title_activity_tes">Coba</string>
+</resources>

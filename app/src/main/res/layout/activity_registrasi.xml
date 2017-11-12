@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E6E6E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bebala.bebala.registrasi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E6E6E6"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/index2"
+
+                android:layout_marginTop="20dp"
+                android:id="@+id/index2"/>
+
+        <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="40.0sp"
+        android:textStyle="bold"
+        android:textColor="#04B431"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="B e  B a L a"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20.0sp"
+        android:gravity="center_horizontal"
+        android:textColor="#04B431"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="B e l a j a r  B a h a s a  L a m p u ng"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:paddingLeft="24dp"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="24dp">
+
+        <EditText android:id="@+id/input_nama"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nama" />
+
+        <EditText android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText android:id="@+id/input_password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <EditText android:id="@+id/input_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nomor Telpon" />
+
+        <!-- Login Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnlogin"
+            android:onClick="registrasi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="#04B431"
+            android:textColor="#FFFFFF"
+            android:text="Registrasi"/>
+
+        <TextView android:id="@+id/link_login"
+            android:onClick="linklogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Sudah ada akun? login."
+            android:gravity="center"
+            android:textColor="#04B431"
+            android:textSize="16dip"/>
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

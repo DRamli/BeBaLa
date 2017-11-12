@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_satu"
+    android:layout_width="match_parent"
+    android:background="#E6E6E6"
+    android:layout_height="match_parent"
+    tools:context="com.bebala.bebala.pilihdialek">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E6E6E6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/index2"
+
+            android:layout_marginTop="40dp"
+            android:id="@+id/index2"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+
+            android:text="B e  B a L a"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#04B431"
+            android:textSize="40.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="B e l a j a r  B a h a s a  L a m p u ng"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#04B431"
+            android:textSize="20.0sp" />
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFFFFF">
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#555555"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/dialeka"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:background="#04B431"
+                android:padding="12dp"
+                android:text="Dialek A"
+                android:onClick="dialeka"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#555555"/>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+               android:layout_marginTop="10dp"
+                android:background="#555555"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/dialeko"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:background="#04B431"
+                android:onClick="dialeko"
+                android:padding="12dp"
+                android:text="Dialek o"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <View android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#555555"/>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#555555"/>
+            <TextView
+                android:id="@+id/link_sign"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:onClick="logout"
+                android:text="Ingin Keluar? Logout."
+                android:textColor="#04B431"
+                android:textSize="15dip" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

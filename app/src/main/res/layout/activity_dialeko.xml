@@ -26,7 +26,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="70dp"
             android:gravity="center_horizontal"
-            android:text="D i a l e k  O"
+            android:text="Pilih Model Pembelajaran:"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="#04B431"
             android:textSize="20.0sp" />
